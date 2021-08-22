@@ -1,6 +1,6 @@
 numpy
 #opencv-python
-rowan
-scipy
+#rowan
+#scipy
 matplotlib
 pynput
