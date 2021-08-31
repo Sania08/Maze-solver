@@ -8,3 +8,6 @@ pip install -r requirement.txt
 ``` shell
 xargs sudo apt install < ros_requirements.txt
 ```
+
+## Launch Files
+`teleop.launch` launch all ROS Controller along with Gazebo.
