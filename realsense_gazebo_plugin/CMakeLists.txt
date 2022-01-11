@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(realsense_gazebo_plugin)
+set(OpenCV_DIR "/usr/local/share/OpenCV/")
 
 # Load catkin and all dependencies required for this package
 find_package(catkin REQUIRED COMPONENTS
@@ -8,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
     image_transport
     camera_info_manager
     sensor_msgs
+    OpenCV REQUIRED
     cv_bridge
     rostest
 )

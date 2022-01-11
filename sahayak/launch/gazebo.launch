@@ -37,7 +37,12 @@
     name="robot_state_publisher"
     pkg="robot_state_publisher"
     type="robot_state_publisher" />
+
+
 <!-- 
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
     args="-urdf -model sahayak -param robot_description"/> -->
+
+
+    <node name="map_launcher" pkg="map_server" type="map_server" args="$(find sahayak_mapping)/src/map/my_world_map.yaml" />
 </launch>
